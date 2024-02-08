@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Number Validator</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Telephone Number Validator</h1>
+    <div id="container">
+      <p>
+        A valid U.S. phone number typically consists of ten digits, with the
+        first three digits being the area code, followed by a three-digit
+        prefix, and ending with a four-digit line number. The area code cannot
+        start with a 0 or 1, and the second digit of the area code cannot be a
+        9. Additionally, the prefix cannot start with a 0 or 1. Valid U.S. phone
+        numbers may also include country codes for international calls.
+      </p>
+      <input id="user-input" type="tel" placeholder="Enter a phone number..." />
+      <button id="check-btn">Submit</button>
+      <button id="clear-btn">Clear</button>
+      <div id="results-div"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
